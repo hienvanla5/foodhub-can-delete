@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - FoodHub</title>
+
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<div class="auth-container">
+
+    <form class="auth-form" id="loginForm">
+
+        <h2>Login</h2>
+
+        <!-- EMAIL -->
+        <div class="input-group">
+            <input type="text" id="loginEmail" placeholder="Email">
+            <small class="error" id="loginEmailError"></small>
+        </div>
+
+        <!-- PASSWORD -->
+        <div class="input-group">
+            <input type="password" id="loginPassword" placeholder="Password">
+            <small class="error" id="loginPasswordError"></small>
+        </div>
+
+        <button type="submit">
+            Login
+        </button>
+
+        <p id="loginSuccess"></p>
+
+        <p class="switch-page">
+            Don't have an account?
+            <a href="register.html">Register</a>
+        </p>
+
+    </form>
+
+</div>
+
+<script src="login.js"></script>
+
+</body>
+</html>

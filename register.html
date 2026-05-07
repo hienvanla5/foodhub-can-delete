@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - FoodHub</title>
+
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<div class="auth-container">
+
+    <form class="auth-form" id="registerForm">
+
+        <h2>Create Account</h2>
+
+        <!-- FULL NAME -->
+        <div class="input-group">
+            <input type="text" id="fullName" placeholder="Full Name">
+            <small class="error" id="fullNameError"></small>
+        </div>
+
+        <!-- EMAIL -->
+        <div class="input-group">
+            <input type="text" id="email" placeholder="Email">
+            <small class="error" id="emailError"></small>
+        </div>
+
+        <!-- PASSWORD -->
+        <div class="input-group">
+            <input type="password" id="password" placeholder="Password">
+            <small class="error" id="passwordError"></small>
+        </div>
+
+        <!-- CONFIRM PASSWORD -->
+        <div class="input-group">
+            <input type="password" id="confirmPassword" placeholder="Confirm Password">
+            <small class="error" id="confirmPasswordError"></small>
+        </div>
+
+        <!-- PHONE -->
+        <div class="input-group">
+            <input type="text" id="phone" placeholder="Phone Number">
+            <small class="error" id="phoneError"></small>
+        </div>
+
+        <!-- TERMS -->
+        <div class="terms">
+            <input type="checkbox" id="agree">
+
+            <label for="agree">
+                I agree to the Terms & Conditions
+            </label>
+        </div>
+
+        <small class="error" id="agreeError"></small>
+
+        <button type="submit">
+            Register
+        </button>
+
+        <p id="successMessage"></p>
+
+    </form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
